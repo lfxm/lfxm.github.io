@@ -39,7 +39,7 @@ function get_year() {
     }
     days += date.split("/")[0] * 1;
 
-    let percentage = days / 365;
+    let percentage = days / 3.65;
     percentage = percentage.toFixed(4);
     if (percentage.length == 5) percentage = percentage + "0";
     return percentage + "%";
