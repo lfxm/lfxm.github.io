@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <link rel="icon" href="icon.png" type="image/png" sizes="16x16">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+        <title>Percentage clock</title>
+    </head>
+    <body onload="update()">
+        <div class="container">
+            <div class="title">
+                <h1>Percentage clock</h1>
+                <h6 class="descriptor">passed:</h6>
+            </div>
+            <div class="time">
+                <div class="day">
+                    <h1 id="day">0</h1>
+                    <h6 class="descriptor">Of this day</h6>
+                </div>
+                <div class="year">
+                    <h3 id="year">0</h3>
+                    <h6 class="descriptor">Of this year</h6>
+                </div>
+            </div>
+            <div class="footer">
+                <h1>@lfxm</h1>
+            </div>
+        </div>
+    </body>
+</html>
